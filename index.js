@@ -33,6 +33,9 @@ document.body.onkeyup = function(e) {
     if (e.code == 'Space') {
         birdVelocity = FLAP_SPEED;
     }
+ else (e.code == 'tap') {
+        birdVelocity = FLAP_SPEED;
+    }
 }
 
 document.getElementById('restart-button').addEventListener('click', function() {
