@@ -33,7 +33,7 @@ document.body.onkeyup = function(e) {
     if (e.code == 'Space') {
         birdVelocity = FLAP_SPEED;
     }
- else (e.code == 'tap') {
+if(e.code == 'tap') {
         birdVelocity = FLAP_SPEED;
     }
 }
